@@ -1,0 +1,26 @@
+div{
+    float: left;
+    width:auto;
+    height: auto;
+    margin-left: 20px;
+    text-align: center;
+    padding:auto;
+}
+div.red{
+    background-color: red;
+}
+div.black{
+    background-color: black;
+}
+div.yaloo{
+    background-color: yellow;
+}
+
+p{
+    color:brown;
+    margin-top: 20px;
+}
+
+div button:target{
+    border:solid red;
+}

@@ -1,0 +1,195 @@
+body , h1 , h2 , h3 , h4 , h5 ,h6 , div , ul , li , p , a , img {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  
+}
+
+body {
+ margin: auto;
+ 
+}
+/*____________________header style__________________*/
+
+header {
+display: flex;
+margin: auto;
+width: 1242px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.menu-logo {
+  display: flex;
+  width:100%;
+}
+
+h1 {
+  color:#F98561;
+  font-size: 20pt;
+ 
+}
+
+ul {
+  display: flex;
+  margin-left: 202px;
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+li {
+  margin: 0px 47px;
+  padding: 0px;
+}
+
+li a {
+  text-decoration: none;
+  text-align: center;
+  color:#515862;
+  font-size: 14pt;
+  
+
+}
+
+li a:hover {
+  font-size: 16pt;
+
+}
+
+.blog {
+ background-color: #F98561;
+ padding: 0px 13px;
+ border-radius: 3px;
+}
+
+img.Search {
+  width: 34px;
+  background-color: #F98561;
+  border-radius: 30px;
+}
+
+p.Search {
+  color: #515862;
+  margin-left: 89px;
+}
+
+/*________________slider style______________ */
+
+.slider {
+  display: flex;
+  width:1536px;
+  height: 396px;
+  background-image: url(../imags/Homepagheader.jpg);
+  
+}
+
+.homebackground {
+  width: 1228px;
+  margin: auto;
+}
+
+.good {
+  margin-top: 110px;
+  font-size: 30pt;
+  text-align: center;
+  color:#f3f3f3;
+}
+
+.designParagraph {
+  width: 549px;
+  margin: auto;
+  font-size:14px;
+  text-align: center;
+  color: #f3f3f3;
+  padding-top: 9px;
+} 
+.learnButton {
+  margin: auto;
+  color: #f3f3f3;
+  background-color: #F98561;
+  border-radius: 2px;
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 18px;
+  font-family: cursive;
+}
+
+.SliderCircle {
+display: flex;
+margin-top: 88px;
+flex-direction: row-reverse;
+
+}
+
+.SliderCircle1 {
+  width: 13px;
+  height: 13px;
+  border-radius: 30px;
+  background-color: #ADADAD;
+  margin-right: 6px;
+}
+
+.SliderCircle1:hover {
+  background-color: #2190C1;
+}
+
+.our {
+  background-color: #2190C1;
+  color:#ffffff;
+  width: 109px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 20px
+}
+
+/*____________________Main Content_____________________*/
+
+/*_______oUR SERVICES_______*/
+
+.Main-Content{
+  width: 1242px;
+ margin: auto;
+}
+
+.SERVICES {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  
+}
+
+.shapter {
+  margin-top: 50px;
+  width: 25%;
+  text-align: center;
+}
+.shapter h2 {
+  font-size: 20px;
+  margin: 14px 0px;
+}
+
+.shapter p {
+  font-size: 16px;
+}
+
+/*_____ Our Portfolio _____*/
+
+
+.Our-Portfolio {
+  background-color: #2E3E4F;
+  
+}
+
+.imags-Portfolio {
+ display: flex;
+}
+
+.imags-Portfolio h1{
+  color: #F98561;
+}
+
+.imags-Portfolio {
+  color:#ffffff
+}
