@@ -1,14 +1,13 @@
-body , h1 , h2 , h3 , h4 , h5 ,h6 , div , ul , li , p , a , img {
+* {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  
 }
 
 body {
- margin: auto;
- 
+  margin: auto; 
 }
+
 /*____________________header style__________________*/
 
 header {
@@ -17,7 +16,6 @@ margin: auto;
 width: 1242px;
 margin-top: 20px;
 margin-bottom: 20px;
-
 }
 
 .menu-logo {
@@ -27,8 +25,7 @@ margin-bottom: 20px;
 
 h1 {
   color:#F98561;
-  font-size: 20pt;
- 
+  font-size: 20pt; 
 }
 
 ul {
@@ -47,9 +44,7 @@ li a {
   text-decoration: none;
   text-align: center;
   color:#515862;
-  font-size: 14pt;
-  
-
+  font-size: 14pt; 
 }
 
 li a:hover {
@@ -57,18 +52,18 @@ li a:hover {
 }
 
 .blog {
- background-color: #F98561;
- padding: 0px 13px;
- border-radius: 3px;
+  background-color: #F98561;
+  padding: 0px 13px;
+  border-radius: 3px;
 }
 
-img.Search {
+img.search {
   width: 34px;
   background-color: #F98561;
   border-radius: 30px;
 }
 
-p.Search {
+p.search {
   color: #515862;
   margin-left: 89px;
 }
@@ -80,10 +75,9 @@ p.Search {
   width:1536px;
   height: 396px;
   background-image: url(../imags/Homepagheader.jpg);
-  
 }
 
-.homebackground {
+.home-background {
   width: 1228px;
   margin: auto;
 }
@@ -95,7 +89,7 @@ p.Search {
   color:#f3f3f3;
 }
 
-.designParagraph {
+.design-paragraph {
   width: 549px;
   margin: auto;
   font-size:14px;
@@ -103,7 +97,7 @@ p.Search {
   color: #f3f3f3;
   padding-top: 9px;
 } 
-.learnButton {
+.learn-button {
   margin: auto;
   color: #f3f3f3;
   background-color: #F98561;
@@ -115,14 +109,13 @@ p.Search {
   font-family: cursive;
 }
 
-.SliderCircle {
-display: flex;
-margin-top: 88px;
-flex-direction: row-reverse;
-
+.slider-circle {
+  display: flex;
+  margin-top: 88px;
+  flex-direction: row-reverse;
 }
 
-.SliderCircle1 {
+.slider-circle1 {
   width: 13px;
   height: 13px;
   border-radius: 30px;
@@ -130,7 +123,7 @@ flex-direction: row-reverse;
   margin-right: 6px;
 }
 
-.SliderCircle1:hover {
+.slider-circle1:hover {
   background-color: #2190C1;
 }
 
@@ -147,16 +140,15 @@ flex-direction: row-reverse;
 
 /*_______oUR SERVICES_______*/
 
-.Main-Content{
+.main-content {
   width: 1242px;
- margin: auto;
+  margin: auto;
 }
 
-.SERVICES {
+.services { 
   width: 100%;
   display: flex;
-  margin: auto;
-  
+  margin: auto;  
 }
 
 .shapter {
@@ -176,19 +168,16 @@ flex-direction: row-reverse;
 /*_____ Our Portfolio _____*/
 
 
-.Our-Portfolio {
-  background-color: #2E3E4F;
-  
+.our-portfolio {
+  background-color: #2E3E4F;  
 }
 
-.imags-Portfolio {
- display: flex;
+.imags-portfolio {
+  display: flex;
+  color:#ffffff
 }
 
-.imags-Portfolio h1{
+.imags-portfolio h1{
   color: #F98561;
 }
 
-.imags-Portfolio {
-  color:#ffffff
-}
