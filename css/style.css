@@ -147,23 +147,20 @@ li a:hover {
 /*_______oUR SERVICES_______*/
 
 .services {
-  width: 100%;
   display: flex;
-  margin: auto;
+  margin: 50px 0;
+  text-align: center;
+  justify-content:space-between;
 }
 
 .shapter {
-  margin-top: 50px;
-  width: 25%;
-  text-align: center;
+  flex-basis: 21%;
 }
 .shapter h2 {
-  font-size: 20px;
-  margin: 14px 0px;
+  margin: 20px 0;
 }
 
 .shapter p {
-  font-size: 16px;
 }
 
 /*________ Our Portfolio ________*/
