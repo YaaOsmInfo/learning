@@ -1,9 +1,10 @@
 * {
   margin: 0px;
   padding: 0px;
-  border: 0px;
 }
-
+hr {
+  width: 100%;
+}
 /*____________________header style__________________*/
 
 header,
@@ -211,8 +212,96 @@ flex-basis: 33%;
 }
 .portfolio-shapter h3 {
   margin: 30px 0;
+  color:#f98561
 }
 
 .portfolio-shapter p {
   margin: 35px 0;
+  color: #bbbbbb;
+}
+
+/*__________________our OFFER____________________*/
+
+.offer {
+  margin: 30px 0;
+}
+
+.what-we-offer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.what-we-offer h2 {
+  color: #2190C1;
+  margin: 20px 0;
+  
+}
+
+.what-we-offer p {
+  margin: auto; 
+  width: 48%;
+  font-size: 13px;
+  color: #515862;
+}
+
+.our-offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-offer div {
+  flex-basis: 18%;
+}
+
+.our-offer h3 {
+  color: #2190C1;
+  padding: 24px 0;
+}
+
+.our-offer p {
+  color:#515862
+}
+
+.testimonials {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pregraft h2 {
+  margin: 16px 0;
+  color: #2190C1;
+  font-size: 30px;
+}
+
+.pregraft p {
+  color: #2e3e4f;
+  font-size: 28px;
+  width: 70%;
+  margin: auto;
+}
+
+.identification {
+  
+}
+
+.identification p {
+  margin: 60px 0;
+  color: #f98561;
+}
+
+.identification-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.sections {
+  flex-basis: 7%;
+}
+
+.sections hr {
+  border: 3px solid #adadad;
+  width: 66px;
+  margin: auto;
 }
