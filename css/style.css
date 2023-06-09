@@ -167,13 +167,52 @@ li a:hover {
 
 .our-portfolio {
   background-color: #2e3e4f;
+  margin-left: calc(-100vw / 2 + 1242px / 2);
+  margin-right: calc(-100vw / 2 + 1242px / 2);
 }
 
-.imags-portfolio {
+.portfolio {
+  width: 1242px;
   display: flex;
   color: #ffffff;
+  padding: 26px 0px 54px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.imags-portfolio h1 {
-  color: #f98561;
+.portfolio h3 {
+flex-basis: 33%;
+
+}
+
+.portfolio p {
+  flex-basis: 7%;
+  background-color: #2190C1;
+  border-radius: 2px;
+  padding: 6px;;
+}
+
+.portfolio-shapters {
+  width: 1242px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;;
+}
+
+.portfolio-shapter {
+  flex-basis: 22%;
+}
+
+.portfolio-shapter img {
+  width: 387px;
+  height: 256px;
+
+}
+.portfolio-shapter h3 {
+  margin: 30px 0;
+}
+
+.portfolio-shapter p {
+  margin: 35px 0;
 }
