@@ -5,6 +5,10 @@
 hr {
   width: 100%;
 }
+a {
+  text-decoration: none;
+  color: #2190c1;
+}
 /*____________________header style__________________*/
 
 header,
@@ -220,7 +224,7 @@ flex-basis: 33%;
   color: #bbbbbb;
 }
 
-/*__________________our OFFER____________________*/
+/*___________our OFFER___________*/
 
 .offer {
   margin: 30px 0;
@@ -305,3 +309,73 @@ flex-basis: 33%;
   width: 66px;
   margin: auto;
 }
+
+/*___________________________footer____________________________*/
+
+footer {
+  background-color: #2e3e4f;
+  width: 100%;
+} 
+
+.title-contect {
+  display: flex;
+  width: 1242px;
+  margin: auto;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+.bird-feed {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bird-feed  div  {
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.news {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.news div {
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.recent-projects {
+
+}
+
+.projects-image {
+   background-color: #f3f3f3;
+  width: 53px;
+  height: 53px;
+  margin: 0 20px 0 0;
+
+}
+
+.projects {
+  display: flex;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.Contact {
+  
+}
+
+.foon {
+  display: flex;
+  margin: 22px 0;
+  color: #ffffff;
+}
+
+.foon img {
+  margin: 0 20px 0  0;
+}
+
